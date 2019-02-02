@@ -14,6 +14,7 @@
 		A24E154E2205C09B00C426AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24E154C2205C09B00C426AF /* LaunchScreen.storyboard */; };
 		A24E15592205C09B00C426AF /* PassingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E15582205C09B00C426AF /* PassingDataTests.swift */; };
 		A24E15642205C09B00C426AF /* PassingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E15632205C09B00C426AF /* PassingDataUITests.swift */; };
+		A24E15722205C25F00C426AF /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E15712205C25F00C426AF /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A24E155F2205C09B00C426AF /* PassingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E15632205C09B00C426AF /* PassingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataUITests.swift; sourceTree = "<group>"; };
 		A24E15652205C09B00C426AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24E15712205C25F00C426AF /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A24E15432205C09A00C426AF /* AppDelegate.swift */,
 				A24E15452205C09A00C426AF /* ViewController.swift */,
+				A24E15712205C25F00C426AF /* NameViewController.swift */,
 				A24E15472205C09A00C426AF /* Main.storyboard */,
 				A24E154A2205C09B00C426AF /* Assets.xcassets */,
 				A24E154C2205C09B00C426AF /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				A24E15462205C09A00C426AF /* ViewController.swift in Sources */,
 				A24E15442205C09A00C426AF /* AppDelegate.swift in Sources */,
+				A24E15722205C25F00C426AF /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
